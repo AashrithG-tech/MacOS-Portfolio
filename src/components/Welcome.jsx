@@ -23,7 +23,7 @@ const renderText = (text,className,baseWeight = 400) => {
 }
 
 const setupTextHover = (container,type) => {
-    if(!container) return;
+    if(!container) return () => {};
 
 
     const letters = container.querySelectorAll("span");
