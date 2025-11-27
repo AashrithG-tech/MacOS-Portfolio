@@ -1,4 +1,4 @@
-import {Navbar,Welcome,Dock} from "#components/index.js";
+import {Navbar,Welcome,Dock,Home} from "#components/index.js";
 import gsap from "gsap";
 
 import {Draggable} from "gsap/Draggable";
@@ -19,6 +19,7 @@ const App = () => {
             <Text />
             <Image />
             <Contact />
+            <Home />
 
         </main>
     )
